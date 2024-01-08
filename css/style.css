@@ -10,12 +10,13 @@
 }
 
 /* Banner Section CSS */
-.banner-section{
-    background-image: url(../imge/Banner\ Image.png) ;
+.banner-section {
+    background-image: url(../imge/Banner\ Image.png);
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;  
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
 }
 .banner-section .banner-content{
      padding: 15%;
@@ -24,6 +25,7 @@
     color: #fff;
     text-align: center;
     font-size: 25px;
+    margin-bottom: 10px;
 }
 .banner-section .banner-content h1{
     color: #fff;
@@ -35,7 +37,6 @@
 .discount-section{
     display: flex;
     justify-content: center;
-
 }
 .discount-content h1,h3,h6{
     text-align: center;
@@ -53,4 +54,46 @@
 .discount-content h3 {
     font-size: 30px;
     margin: 10px 0px 50px 0px;
+}
+.discount-img{
+    margin-bottom: 50px;
+}
+/* Party section CSS */
+.party-section{
+   background-image: url(../imge/Vectorrr.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+
+}
+.party-content {
+    padding: 9% 20% 0% 6%;
+}
+.party-content h1{
+    font-size: 60px;
+    color: #fff;
+}
+.party-content p {
+    font-size: 18px;
+    color: #fff;
+    margin: 15px 0;
+}
+.party-img img{
+    display: flex;
+    margin-right: 0;
+}
+.btn {
+    border: #FF0000 1px solid;
+    background: #FF0000;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #8B1F9B;
+    border-color: #8B1F9B;
+    transition: all 0.3s ease-in-out;
+}
+.btn a{
+    color: #fff;
+    text-decoration: none;
 }
