@@ -12,6 +12,7 @@
 /* Banner Section CSS */
 .banner-section {
     background-image: url(../imge/Banner\ Image.png);
+    opacity: rgba(00,00,00,0.4);
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,13 +194,16 @@
     margin-top: 8%;
 }
 .img-two {
-    margin-left: 69%;
+    margin-left: 66%;
     margin-bottom: -1%;
 }
 .img-three {
     position: absolute;
     margin-top: -31%;
     margin-left: 53%;
+}
+.img-four{
+   width: 100%;
 }
 /* portfolio css */
 .portfolio-contant{
@@ -222,10 +226,13 @@
 }
 .portfolio-img{
     display: flex;
+    gap: 10px;
+    margin-top: 10px;
 }
 .portfolio-img img{
-    padding: 10px;
+    padding: 5px;
 }
+
 /* Subscribe Section CSS */
 .subscribe-content {
     text-align: center;
