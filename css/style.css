@@ -6,26 +6,51 @@
     padding: 0;
 }
 .global-margin{
-    margin: 40px 150px;
+    margin: 50px 150px;
 }
 
 /* Banner Section CSS */
 .banner-section{
     background-image: url(../imge/Banner\ Image.png) ;
     display: flex;
-    justify-content: center;
-
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;  
 }
 .banner-section .banner-content{
      padding: 15%;
 }
 .banner-section .banner-content h4{
     color: #fff;
-text-align: center;
+    text-align: center;
+    font-size: 25px;
 }
 .banner-section .banner-content h1{
     color: #fff;
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
+}
+
+/* Discount Section CSS */
+.discount-section{
+    display: flex;
+    justify-content: center;
+
+}
+.discount-content h1,h3,h6{
+    text-align: center;
+}
+.discount-content h1 {
+    color: #FF0000;
+    font-size: 90px;
+    margin: 35px 0px;
+}
+.discount-content h6 {
+    color: #FF0000;
+    font-size: 15px;
+
+}
+.discount-content h3 {
+    font-size: 30px;
+    margin: 10px 0px 50px 0px;
 }
