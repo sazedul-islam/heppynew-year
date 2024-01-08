@@ -91,7 +91,7 @@
 .btn:hover{
     background-color: #8B1F9B;
     border-color: #8B1F9B;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3 ease-in-out;
 }
 .btn a{
     color: #fff;
