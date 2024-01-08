@@ -1,0 +1,31 @@
+/* Global CSS */
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.global-margin{
+    margin: 40px 150px;
+}
+
+/* Banner Section CSS */
+.banner-section{
+    background-image: url(../imge/Banner\ Image.png) ;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.banner-section .banner-content{
+     padding: 15%;
+}
+.banner-section .banner-content h4{
+    color: #fff;
+text-align: center;
+}
+.banner-section .banner-content h1{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+}
