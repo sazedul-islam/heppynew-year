@@ -201,3 +201,28 @@
     margin-top: -31%;
     margin-left: 53%;
 }
+/* portfolio css */
+.portfolio-contant{
+    margin-top: 10%;
+}
+.portfolio-contant h4{
+    color: #FF0000;
+    font-size: 20px;
+}
+.portfolio-contant h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0 10px;
+}
+.portfolio-contant p {
+    color: #6A6770;
+    font-size: 18px;
+    padding: 0% 40% 0% 0%;
+    margin-bottom: 40px;
+}
+.portfolio-img{
+    display: flex;
+}
+.portfolio-img img{
+    padding: 10px;
+}
