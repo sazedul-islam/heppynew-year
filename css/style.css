@@ -162,3 +162,42 @@
     font-size: 40px;
     font-weight: 700;
 }
+/* Saleing Section CSS */
+.sale-contant{
+    text-align: center;
+    margin-top: 7%;
+}
+.sale-contant h4{
+    font-size: 18px;
+}
+.sale-contant h1 {
+    font-size: 45px;
+    margin: 15px 0;
+    font-weight: 800;
+}
+.sale-contant span{
+   color: #FF0000;
+   
+}
+.sale-contant p{
+    padding: 0% 15%;
+    color: #6A6770;
+}
+.sale-img{
+    margin-top: 70px;
+    position: relative;
+}
+.img-one {
+    width: 42%;
+    position: absolute;
+    margin-top: 8%;
+}
+.img-two {
+    margin-left: 69%;
+    margin-bottom: -1%;
+}
+.img-three {
+    position: absolute;
+    margin-top: -31%;
+    margin-left: 53%;
+}
