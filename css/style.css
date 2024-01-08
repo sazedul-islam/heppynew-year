@@ -116,3 +116,49 @@
 .date-line button {
     margin-top: 30px;
 }
+/* Coming soon CSS */
+.coming-section {
+    margin-top: 6%;
+}
+.coming-soon{
+    display: flex;
+    justify-content: space-between;
+}
+.first-item{
+   width: 33.3%;
+   margin-top: 10%;
+}
+.first-item h4{
+   color: #FF0000;
+}
+.first-item h2 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+.first-item p {
+    color: #6A6770;
+    padding: 0px 100px 0px 0px;
+}
+.second-item{
+    border: 15px solid #FF0000;
+    border-radius: 100%;
+}
+.second-item img{
+    padding:15px;
+}
+.third-item{
+   width: 33.3%;
+   margin-top: 10%;
+}
+.third-content {
+    margin-left: 35%;
+}
+.third-content p{
+    color: #6A6770;
+    margin: 10px 0;
+}
+.third-content h2{
+    color: #FF0000;
+    font-size: 40px;
+    font-weight: 700;
+}
