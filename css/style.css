@@ -255,3 +255,32 @@
     text-decoration: none;
     color: #fff;
 }
+/* Footer section CSS */
+.main-fot{
+    background-color: #070211;
+    padding: 10px 0;
+}
+.info-one{
+    width: 48%;
+}
+.info-one p{
+    margin-left: 15%;
+    color: #fff;
+}
+.info-two{
+    width: 48%;
+}
+.info-two p{
+    margin-left: 40%;
+    color: #fff;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+}
+.socail-media{
+    text-align: center;
+}
+.socail-media img{
+    padding: 25px 0px;
+}
